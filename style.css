@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root{
+    --bg-color: #0b1a1f;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+#main{
+    padding: 20px;
+    background-color: var(--bg-color);
+}
+#title{
+    padding-top: 40px;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    
+}
+p{
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+    padding: 10px;
+    
+}
+#img-div{
+    padding: 10px;
+    text-align: center;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(185, 185, 185);
+}
+#img-caption{
+    margin: 15px;
+    color: white;
+}
+#headline{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+ul{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 550px;
+    text-align: left;
+    color: white;
+}
+ul li{
+    margin: 15px 0;
+    line-height: 1.6;
+}
+blockquote{
+    font-size: 1.1rem;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 550px;
+    
+}
+blockquote p{
+    font-size: 1.3rem;
+    text-align: left;
+}
+blockquote cite{
+    color: white;
+}
+
+h3{
+    margin: 16px 0;
+    text-align: center;
+    color: white;
+}
+h3 a{
+    color: white;
+}
